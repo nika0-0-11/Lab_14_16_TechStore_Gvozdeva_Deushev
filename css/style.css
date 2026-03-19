@@ -7,7 +7,8 @@ section {
 }
 
 .bg-custom {
-    background-color: #b385f0 ;
+    /* background-color: #b385f0; */
+    background: linear-gradient(135deg, #dc76e4 0%, #9231aa 100%);
 }
 
 .navbar-brand, .navbar-nav .nav-link {
@@ -25,4 +26,46 @@ section {
     margin-bottom: 3rem;
     font-weight: bold;
     color: #333;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #e485ec 0%, #471753 100%);
+    min-height: 60vh;
+    padding-top: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-text {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-custom {
+    display: inline-block;
+    background-color: plum;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3 ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    background-color: #ff07de;
+    
 }
